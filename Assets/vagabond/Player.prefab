@@ -148,6 +148,7 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 64
+  attackHitBox: {fileID: 0}
 --- !u!70 &1801961171
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
