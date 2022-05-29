@@ -1,0 +1,398 @@
+fileFormatVersion: 2
+guid: 22cf4d3efad7470438907ddbe544f256
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1247699442072255223
+    second: preview-vagabond-death00
+  - first:
+      213: -810515239045984245
+    second: preview-vagabond-death01
+  - first:
+      213: -6253271985072985965
+    second: preview-vagabond-death02
+  - first:
+      213: 2014954788131753228
+    second: preview-vagabond-death03
+  - first:
+      213: 2602609657904469356
+    second: preview-vagabond-death04
+  - first:
+      213: 2758301928397748467
+    second: preview-vagabond-death05
+  - first:
+      213: -2754326893308451500
+    second: preview-vagabond-death06
+  - first:
+      213: -6693072354218238473
+    second: preview-vagabond-death07
+  - first:
+      213: -4185125591655533749
+    second: preview-vagabond-death08
+  - first:
+      213: -1395915592569508198
+    second: preview-vagabond-death09
+  - first:
+      213: 1151003106393310339
+    second: preview-vagabond-death10
+  - first:
+      213: 7814775166047569940
+    second: preview-vagabond-death11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: preview-vagabond-death00
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 265
+        width: 116
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90584d0d7f74faee0800000000000000
+      internalID: -1247699442072255223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-death01
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 265
+        width: 116
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b009f933fa870c4f0800000000000000
+      internalID: -810515239045984245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-death02
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 265
+        width: 116
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398a2d5c24ae739a0800000000000000
+      internalID: -6253271985072985965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-death03
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 199
+        width: 116
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0dc01144be86fb10800000000000000
+      internalID: 2014954788131753228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-death04
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 199
+        width: 116
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c659564d1b35e1420800000000000000
+      internalID: 2602609657904469356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-death05
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 199
+        width: 116
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f83c616df4774620800000000000000
+      internalID: 2758301928397748467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-death06
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 133
+        width: 116
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4556b09984aa6c9d0800000000000000
+      internalID: -2754326893308451500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-death07
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 133
+        width: 116
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd95deb72e6d13a0800000000000000
+      internalID: -6693072354218238473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-death08
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 133
+        width: 116
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43b9f8b2727be5c0800000000000000
+      internalID: -4185125591655533749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-death09
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 67
+        width: 116
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e27781a26b0ace0800000000000000
+      internalID: -1395915592569508198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-death10
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 67
+        width: 116
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384c1fb1a3f29ff00800000000000000
+      internalID: 1151003106393310339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-death11
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 67
+        width: 116
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4184fcbeb98a37c60800000000000000
+      internalID: 7814775166047569940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      preview-vagabond-death01: -810515239045984245
+      preview-vagabond-death03: 2014954788131753228
+      preview-vagabond-death09: -1395915592569508198
+      preview-vagabond-death04: 2602609657904469356
+      preview-vagabond-death05: 2758301928397748467
+      preview-vagabond-death10: 1151003106393310339
+      preview-vagabond-death07: -6693072354218238473
+      preview-vagabond-death02: -6253271985072985965
+      preview-vagabond-death11: 7814775166047569940
+      preview-vagabond-death08: -4185125591655533749
+      preview-vagabond-death06: -2754326893308451500
+      preview-vagabond-death00: -1247699442072255223
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
