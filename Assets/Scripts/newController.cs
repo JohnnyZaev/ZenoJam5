@@ -132,7 +132,12 @@ public class newController : MonoBehaviour
     {
 	    if (col.gameObject.layer == 8)
 	    {
-		    health -= 20;
+		    if (health > 0)
+				health -= 20;
+		    else
+		    {
+			    health = 0;
+		    }
 	    }
     }
 }
