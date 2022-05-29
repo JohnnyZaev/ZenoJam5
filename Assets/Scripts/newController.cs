@@ -23,8 +23,10 @@ public class newController : MonoBehaviour
 	private float groundRadius = 0.2f;
 	//ссылка на слой, представляющий землю
 	public LayerMask whatIsGround;
-	private Rigidbody2D rigidbody2D;
+	private Rigidbody2D _rigidbody2D;
 	[SerializeField] private GameObject attackHitBox;
+	private float _takeDamageCd = 2f;
+	private float _currentTakeDamageCd;
 
 	public int health = 100;
 
@@ -34,7 +36,7 @@ public class newController : MonoBehaviour
 	private void Start()
     {
         anim = GetComponent<Animator>();
-        rigidbody2D = GetComponent<Rigidbody2D>();
+        _rigidbody2D = GetComponent<Rigidbody2D>();
         attackHitBox.SetActive(false);
     }
 	
@@ -49,7 +51,7 @@ public class newController : MonoBehaviour
 		//устанавливаем соответствующую переменную в аниматоре
 		anim.SetBool ("isJumping", !isGrounded);
 		//устанавливаем в аниматоре значение скорости взлета/падения
-		anim.SetFloat ("ySpeed", rigidbody2D.velocity.y);
+		anim.SetFloat ("ySpeed", _rigidbody2D.velocity.y);
         //если персонаж в прыжке - выход из метода, чтобы не выполнялись действия, связанные с бегом
         // if (!isGrounded)
         //     return;
@@ -65,7 +67,7 @@ public class newController : MonoBehaviour
 
         //обращаемся к компоненту персонажа RigidBody2D. задаем ему скорость по оси Х, 
         //равную значению оси Х умноженное на значение макс. скорости
-        rigidbody2D.velocity = new Vector2(move * maxSpeed, rigidbody2D.velocity.y);
+        _rigidbody2D.velocity = new Vector2(move * maxSpeed, _rigidbody2D.velocity.y);
 
         //если нажали клавишу для перемещения вправо, а персонаж направлен влево
         if(move > 0 && !isFacingRight)
@@ -86,7 +88,7 @@ public class newController : MonoBehaviour
 			if (isAttacking == false)
 				anim.SetBool("isJumping", true);
 			//прикладываем силу вверх, чтобы персонаж подпрыгнул
-            rigidbody2D.AddForce(new Vector2(0, jumpForce));				
+            _rigidbody2D.AddForce(new Vector2(0, jumpForce));				
 		}
 
 		if (Input.GetKeyDown(KeyCode.K) && !isAttacking && isGrounded)
@@ -102,6 +104,8 @@ public class newController : MonoBehaviour
 			anim.Play("attack" + choose);
 			StartCoroutine(DoAttack());
 		}
+
+		_currentTakeDamageCd += Time.deltaTime;
 	}
 
     /// <summary>
@@ -112,11 +116,12 @@ public class newController : MonoBehaviour
         //меняем направление движения персонажа
         isFacingRight = !isFacingRight;
         //получаем размеры персонажа
-        Vector3 theScale = transform.localScale;
+        var transform1 = transform;
+        Vector3 theScale = transform1.localScale;
         //зеркально отражаем персонажа по оси Х
         theScale.x *= -1;
         //задаем новый размер персонажа, равный старому, но зеркально отраженный
-        transform.localScale = theScale;
+        transform1.localScale = theScale;
     }
 
     IEnumerator DoAttack()
@@ -132,7 +137,7 @@ public class newController : MonoBehaviour
     {
 	    if (col.gameObject.layer == 8)
 	    {
-		    if (health > 0)
+		    if (health > 0 && _currentTakeDamageCd >= _takeDamageCd)
 				health -= 20;
 		    else
 		    {

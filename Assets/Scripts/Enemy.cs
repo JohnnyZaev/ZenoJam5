@@ -9,30 +9,30 @@ public class Enemy : MonoBehaviour
     public int health;
     public float speed;
 
-    private Material matBlink;
-    private Material matDefault;
-    private SpriteRenderer spriteRend;
+    private Material _matBlink;
+    private Material _matDefault;
+    private SpriteRenderer _spriteRend;
 
     public int positionOfPatrol;
     public Transform startPoint;
-    private bool movingRight;
+    private bool _movingRight;
 
-    private Transform player;
+    private Transform _player;
     public float stoppingDistance;
 
-    private bool chill = false;
-    private bool angry = false;
-    private bool goBack = false;
+    private bool _chill = false;
+    private bool _angry = false;
+    private bool _goBack = false;
 
-    private Animator anim;
+    private Animator _anim;
 
     private void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
-        spriteRend = GetComponent<SpriteRenderer>();
-        matBlink = Resources.Load("EnemyBlink", typeof(Material)) as Material;
-        matDefault = spriteRend.material;
-        anim = GetComponent<Animator>();
+        _player = GameObject.FindGameObjectWithTag("Player").transform;
+        _spriteRend = GetComponent<SpriteRenderer>();
+        _matBlink = Resources.Load("EnemyBlink", typeof(Material)) as Material;
+        _matDefault = _spriteRend.material;
+        _anim = GetComponent<Animator>();
     }
 
     public void TakeDamage(int damage)
@@ -40,101 +40,110 @@ public class Enemy : MonoBehaviour
         health -= damage;
     }
 
-    void Update()
+    private void Update()
     {
         if (health <= 0)
         {
-            anim.Play("dealthEye");
-            Invoke("DestroyEnemy", 0.2f);
+            _anim.Play("dealthEye");
+            Invoke(nameof(DestroyEnemy), 0.2f);
         }
             
-        if (Vector2.Distance(transform.position, startPoint.position) < positionOfPatrol && !angry)
+        if (Vector2.Distance(transform.position, startPoint.position) < positionOfPatrol && !_angry)
         {
-            chill = true;
+            _chill = true;
         }
 
-        if (Vector2.Distance(transform.position, player.position) < stoppingDistance)
+        if (Vector2.Distance(transform.position, _player.position) < stoppingDistance)
         {
-            if (transform.position.y - player.position.y >  0.3f || transform.position.y - player.position.y < -0.3f)
+            if (transform.position.y - _player.position.y >  0.3f || transform.position.y - _player.position.y < -0.3f)
                 ;
             else
             {
-                angry = true;
-                chill = false;
-                goBack = false;
+                _angry = true;
+                _chill = false;
+                _goBack = false;
             }
             
         }
 
-        if (Vector2.Distance(transform.position, player.position) > stoppingDistance)
+        if (Vector2.Distance(transform.position, _player.position) > stoppingDistance)
         {
-            goBack = true;
-            angry = false;
+            _goBack = true;
+            _angry = false;
         }
 
-        if (chill)
+        if (_chill)
             Chill();
-        else if (angry)
+        else if (_angry)
             Angry();
-        else if (goBack)
+        else if (_goBack)
             GoBack();
     }
 
-    void Chill()
+    private void Chill()
     {
         if (transform.position.x > startPoint.position.x + positionOfPatrol)
         {
-            movingRight = false;
+            _movingRight = false;
             Flip();
         }
         else if (transform.position.x < startPoint.position.x - positionOfPatrol)
         {
-            movingRight = true;
+            _movingRight = true;
             Flip();
         }
 
-        if (movingRight)
+        if (_movingRight)
         {
-            transform.position = new Vector2(transform.position.x + speed * Time.deltaTime, transform.position.y);
+	        var transform1 = transform;
+	        var position = transform1.position;
+	        position = new Vector2(position.x + speed * Time.deltaTime, position.y);
+	        transform1.position = position;
         }
         else
-            transform.position = new Vector2(transform.position.x - speed * Time.deltaTime, transform.position.y);
+        {
+	        var transform1 = transform;
+	        var position = transform1.position;
+	        position = new Vector2(position.x - speed * Time.deltaTime, position.y);
+	        transform1.position = position;
+        }
     }
 
-    void Angry()
+    private void Angry()
     {
-        transform.position = Vector2.MoveTowards(new Vector2(transform.position.x, transform.position.y), new Vector2(player.position.x, transform.position.y), speed * Time.deltaTime);
+	    var position = transform.position;
+	    position = Vector2.MoveTowards(new Vector2(position.x, position.y), new Vector2(_player.position.x, position.y), speed * Time.deltaTime);
+	    transform.position = position;
     }
 
-    void GoBack()
+    private void GoBack()
     {
         transform.position = Vector2.MoveTowards(transform.position, startPoint.position, speed * Time.deltaTime);
     }
 
-    void Flip()
+    private void Flip()
     {
-        Vector3 theScale = transform.localScale;
+	    var transform1 = transform;
+	    var theScale = transform1.localScale;
          //зеркально отражаем персонажа по оси Х
          theScale.x *= -1;
          //задаем новый размер персонажа, равный старому, но зеркально отраженный
-         transform.localScale = theScale;
+         transform1.localScale = theScale;
     }
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.CompareTag("attackBorder"))
-        {
-            spriteRend.material = matBlink;
-            Invoke("ResetMaterial", 0.2f);
-        }
+	    if (!col.CompareTag("attackBorder")) return;
+	    _spriteRend.material = _matBlink;
+	    Invoke(nameof(ResetMaterial), 0.2f);
     }
 
-    void ResetMaterial()
+    private void ResetMaterial()
     {
-        spriteRend.material = matDefault;
+        _spriteRend.material = _matDefault;
     }
 
-    void DestroyEnemy()
+    private void DestroyEnemy()
     {
         Destroy(gameObject);
     }
