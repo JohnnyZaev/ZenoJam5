@@ -66,8 +66,8 @@ public class newController : MonoBehaviour
         anim.SetFloat("Speed", Mathf.Abs(move));
 
         //обращаемся к компоненту персонажа RigidBody2D. задаем ему скорость по оси Х, 
-        //равную значению оси Х умноженное на значение макс. скорости
-        _rigidbody2D.velocity = new Vector2(move * maxSpeed, _rigidbody2D.velocity.y);
+        //равную значению оси Х умноженное на значение макс. скорости + на время, чтобы скорость не зависила от ФПС
+        _rigidbody2D.velocity = new Vector2(move * maxSpeed * Time.fixedDeltaTime, _rigidbody2D.velocity.y);
 
         //если нажали клавишу для перемещения вправо, а персонаж направлен влево
         if(move > 0 && !isFacingRight)
@@ -81,7 +81,7 @@ public class newController : MonoBehaviour
 	private void Update()
 	{
 		//если персонаж на земле и нажат пробел...
-		if (isGrounded && Input.GetKeyDown(KeyCode.W)) 
+		if (isGrounded && Input.GetKeyDown(KeyCode.Space)) 
 		{
 			//устанавливаем в аниматоре переменную в false
 			
