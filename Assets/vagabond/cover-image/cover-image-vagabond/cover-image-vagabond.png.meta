@@ -1,0 +1,648 @@
+fileFormatVersion: 2
+guid: 3df5842d4127b0d4fbb0bf1064ff6600
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6363002180105662294
+    second: cover-image-vagabond00
+  - first:
+      213: -4648961729579475089
+    second: cover-image-vagabond01
+  - first:
+      213: -3499469931767979405
+    second: cover-image-vagabond02
+  - first:
+      213: -2440843669152203249
+    second: cover-image-vagabond03
+  - first:
+      213: 4783690874184659364
+    second: cover-image-vagabond04
+  - first:
+      213: 7768878117057567
+    second: cover-image-vagabond05
+  - first:
+      213: 6407858097258432184
+    second: cover-image-vagabond06
+  - first:
+      213: -4573555709033998962
+    second: cover-image-vagabond07
+  - first:
+      213: -6136793312298133957
+    second: cover-image-vagabond08
+  - first:
+      213: -5809701077286227034
+    second: cover-image-vagabond09
+  - first:
+      213: -6129170681596001602
+    second: cover-image-vagabond10
+  - first:
+      213: -5940216954047512019
+    second: cover-image-vagabond11
+  - first:
+      213: -2368949661178516917
+    second: cover-image-vagabond12
+  - first:
+      213: -2830128279147872741
+    second: cover-image-vagabond13
+  - first:
+      213: 2734310422212742949
+    second: cover-image-vagabond14
+  - first:
+      213: -1304816413182810829
+    second: cover-image-vagabond15
+  - first:
+      213: -8686795964602605790
+    second: cover-image-vagabond16
+  - first:
+      213: -7658467635092423058
+    second: cover-image-vagabond17
+  - first:
+      213: 2478382467748482356
+    second: cover-image-vagabond18
+  - first:
+      213: -3854941231692906550
+    second: cover-image-vagabond19
+  - first:
+      213: 2606942497033898899
+    second: cover-image-vagabond20
+  - first:
+      213: 8214695632940840046
+    second: cover-image-vagabond21
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cover-image-vagabond00
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 397
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65feb3a25cced4850800000000000000
+      internalID: 6363002180105662294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cover-image-vagabond01
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 397
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f970e20f19b7fb0800000000000000
+      internalID: -4648961729579475089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cover-image-vagabond02
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 397
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3722fc653a26f6fc0800000000000000
+      internalID: -3499469931767979405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cover-image-vagabond03
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 397
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0efbe37d91602ed0800000000000000
+      internalID: -2440843669152203249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cover-image-vagabond04
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 331
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1fd074185136240800000000000000
+      internalID: 4783690874184659364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cover-image-vagabond05
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 331
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f147874e0c99b1000800000000000000
+      internalID: 7768878117057567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cover-image-vagabond06
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 331
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6033a3df84de850800000000000000
+      internalID: 6407858097258432184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cover-image-vagabond07
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 331
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e85919a70577780c0800000000000000
+      internalID: -4573555709033998962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cover-image-vagabond08
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 265
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b361a702ffab5daa0800000000000000
+      internalID: -6136793312298133957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cover-image-vagabond09
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 265
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3762db6abcf5fa0800000000000000
+      internalID: -5809701077286227034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cover-image-vagabond10
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 265
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb24bb32dbfc0faa0800000000000000
+      internalID: -6129170681596001602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cover-image-vagabond11
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 265
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22ce35272c109da0800000000000000
+      internalID: -5940216954047512019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cover-image-vagabond12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 199
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a2caa95dccf1fd0800000000000000
+      internalID: -2368949661178516917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cover-image-vagabond13
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 199
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e7a94235d59b8d0800000000000000
+      internalID: -2830128279147872741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cover-image-vagabond14
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 199
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f83ad87d832f520800000000000000
+      internalID: 2734310422212742949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cover-image-vagabond15
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 199
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335a32ba26c54ede0800000000000000
+      internalID: -1304816413182810829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cover-image-vagabond16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 133
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f9095481d427780800000000000000
+      internalID: -8686795964602605790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cover-image-vagabond17
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 133
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e7d7e1348a7b590800000000000000
+      internalID: -7658467635092423058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cover-image-vagabond18
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 133
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d44bf29bbf46220800000000000000
+      internalID: 2478382467748482356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cover-image-vagabond19
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 133
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acfffe6cf5f708ac0800000000000000
+      internalID: -3854941231692906550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cover-image-vagabond20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 67
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b439d8368bd2420800000000000000
+      internalID: 2606942497033898899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cover-image-vagabond21
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 67
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e643463a726700270800000000000000
+      internalID: 8214695632940840046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      cover-image-vagabond20: 2606942497033898899
+      cover-image-vagabond21: 8214695632940840046
+      cover-image-vagabond00: 6363002180105662294
+      cover-image-vagabond15: -1304816413182810829
+      cover-image-vagabond10: -6129170681596001602
+      cover-image-vagabond09: -5809701077286227034
+      cover-image-vagabond05: 7768878117057567
+      cover-image-vagabond11: -5940216954047512019
+      cover-image-vagabond14: 2734310422212742949
+      cover-image-vagabond07: -4573555709033998962
+      cover-image-vagabond17: -7658467635092423058
+      cover-image-vagabond16: -8686795964602605790
+      cover-image-vagabond06: 6407858097258432184
+      cover-image-vagabond08: -6136793312298133957
+      cover-image-vagabond01: -4648961729579475089
+      cover-image-vagabond13: -2830128279147872741
+      cover-image-vagabond12: -2368949661178516917
+      cover-image-vagabond03: -2440843669152203249
+      cover-image-vagabond04: 4783690874184659364
+      cover-image-vagabond19: -3854941231692906550
+      cover-image-vagabond18: 2478382467748482356
+      cover-image-vagabond02: -3499469931767979405
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

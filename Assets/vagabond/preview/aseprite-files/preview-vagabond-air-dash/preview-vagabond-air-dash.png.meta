@@ -1,0 +1,398 @@
+fileFormatVersion: 2
+guid: 1a9ca7be254ef8d4797b9636b686c763
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8043667515290469718
+    second: preview-vagabond-air-dash00
+  - first:
+      213: -4025769402947506011
+    second: preview-vagabond-air-dash01
+  - first:
+      213: -5634937430680107090
+    second: preview-vagabond-air-dash02
+  - first:
+      213: -3665498656383471163
+    second: preview-vagabond-air-dash03
+  - first:
+      213: 7524837523562689127
+    second: preview-vagabond-air-dash04
+  - first:
+      213: 8125625341896747762
+    second: preview-vagabond-air-dash05
+  - first:
+      213: 380994765721898968
+    second: preview-vagabond-air-dash06
+  - first:
+      213: 249055077971826817
+    second: preview-vagabond-air-dash07
+  - first:
+      213: 5764358906903447004
+    second: preview-vagabond-air-dash08
+  - first:
+      213: -6077872868902812269
+    second: preview-vagabond-air-dash09
+  - first:
+      213: 8187893060662455511
+    second: preview-vagabond-air-dash10
+  - first:
+      213: 3954747096598578335
+    second: preview-vagabond-air-dash11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: preview-vagabond-air-dash00
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 265
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655cc3cecf8d0af60800000000000000
+      internalID: 8043667515290469718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-air-dash01
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 265
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a07da5be089128c0800000000000000
+      internalID: -4025769402947506011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-air-dash02
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 265
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea782c0134eacc1b0800000000000000
+      internalID: -5634937430680107090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-air-dash03
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 199
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c177958468812dc0800000000000000
+      internalID: -3665498656383471163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-air-dash04
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 199
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762fb700cd79d6860800000000000000
+      internalID: 7524837523562689127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-air-dash05
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 199
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2faeaa1723504c070800000000000000
+      internalID: 8125625341896747762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-air-dash06
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 133
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df032888b0994500800000000000000
+      internalID: 380994765721898968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-air-dash07
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 133
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188940c1642d47300800000000000000
+      internalID: 249055077971826817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-air-dash08
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 133
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5c6db82ed1fff40800000000000000
+      internalID: 5764358906903447004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-air-dash09
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 67
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3954013e3de07aba0800000000000000
+      internalID: -6077872868902812269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-air-dash10
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 67
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dcebab7b5d31a170800000000000000
+      internalID: 8187893060662455511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-air-dash11
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 67
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94044df78512e630800000000000000
+      internalID: 3954747096598578335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      preview-vagabond-air-dash09: -6077872868902812269
+      preview-vagabond-air-dash02: -5634937430680107090
+      preview-vagabond-air-dash03: -3665498656383471163
+      preview-vagabond-air-dash01: -4025769402947506011
+      preview-vagabond-air-dash10: 8187893060662455511
+      preview-vagabond-air-dash05: 8125625341896747762
+      preview-vagabond-air-dash11: 3954747096598578335
+      preview-vagabond-air-dash00: 8043667515290469718
+      preview-vagabond-air-dash08: 5764358906903447004
+      preview-vagabond-air-dash06: 380994765721898968
+      preview-vagabond-air-dash07: 249055077971826817
+      preview-vagabond-air-dash04: 7524837523562689127
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

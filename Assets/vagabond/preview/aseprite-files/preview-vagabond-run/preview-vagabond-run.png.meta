@@ -1,0 +1,448 @@
+fileFormatVersion: 2
+guid: db3db1abc9eecdc4c970d6d0b74c8480
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1432587414210762042
+    second: preview-vagabond-run00
+  - first:
+      213: 6874510126735903581
+    second: preview-vagabond-run01
+  - first:
+      213: -3111828727556906904
+    second: preview-vagabond-run02
+  - first:
+      213: -1442457009416237499
+    second: preview-vagabond-run03
+  - first:
+      213: -6253549318155298663
+    second: preview-vagabond-run04
+  - first:
+      213: 3245721395428986240
+    second: preview-vagabond-run05
+  - first:
+      213: -718630980856556845
+    second: preview-vagabond-run06
+  - first:
+      213: 5129025720808327107
+    second: preview-vagabond-run07
+  - first:
+      213: 3432101551863441692
+    second: preview-vagabond-run08
+  - first:
+      213: -4995007303498085858
+    second: preview-vagabond-run09
+  - first:
+      213: 644655650337498793
+    second: preview-vagabond-run10
+  - first:
+      213: 3363422037517215210
+    second: preview-vagabond-run11
+  - first:
+      213: -2230315504650001266
+    second: preview-vagabond-run12
+  - first:
+      213: 6938370891774210749
+    second: preview-vagabond-run13
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: preview-vagabond-run00
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 331
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6caa542465d6e1ce0800000000000000
+      internalID: -1432587414210762042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-run01
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 331
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b4bec998a276f50800000000000000
+      internalID: 6874510126735903581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-run02
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 331
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8606d1c624090d4d0800000000000000
+      internalID: -3111828727556906904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-run03
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 265
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e09fd0efc5bfbe0800000000000000
+      internalID: -1442457009416237499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-run04
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 265
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99897f1270ee639a0800000000000000
+      internalID: -6253549318155298663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-run05
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 265
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d0e6e996e1b0d20800000000000000
+      internalID: 3245721395428986240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-run06
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 199
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2547d2ee8e606f0800000000000000
+      internalID: -718630980856556845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-run07
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 199
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c74f94e7b5fd2740800000000000000
+      internalID: 5129025720808327107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-run08
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 199
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1923e76d2641af20800000000000000
+      internalID: 3432101551863441692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-run09
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 133
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ac388725b2eaab0800000000000000
+      internalID: -4995007303498085858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-run10
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 133
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6a0d006e642f800800000000000000
+      internalID: 644655650337498793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-run11
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 133
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae52fefd5864dae20800000000000000
+      internalID: 3363422037517215210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-run12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 67
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e846a408dd35c01e0800000000000000
+      internalID: -2230315504650001266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-run13
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 67
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2bc14a09b0a4060800000000000000
+      internalID: 6938370891774210749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      preview-vagabond-run12: -2230315504650001266
+      preview-vagabond-run08: 3432101551863441692
+      preview-vagabond-run13: 6938370891774210749
+      preview-vagabond-run11: 3363422037517215210
+      preview-vagabond-run05: 3245721395428986240
+      preview-vagabond-run04: -6253549318155298663
+      preview-vagabond-run07: 5129025720808327107
+      preview-vagabond-run02: -3111828727556906904
+      preview-vagabond-run00: -1432587414210762042
+      preview-vagabond-run10: 644655650337498793
+      preview-vagabond-run01: 6874510126735903581
+      preview-vagabond-run06: -718630980856556845
+      preview-vagabond-run03: -1442457009416237499
+      preview-vagabond-run09: -4995007303498085858
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

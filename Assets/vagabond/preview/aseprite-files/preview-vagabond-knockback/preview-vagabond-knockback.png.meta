@@ -1,0 +1,398 @@
+fileFormatVersion: 2
+guid: ccef537ebc438fc4486fadd48a9f7260
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2366947923360854681
+    second: preview-vagabond-knockback00
+  - first:
+      213: 3359341627397882491
+    second: preview-vagabond-knockback01
+  - first:
+      213: 8816980933508702358
+    second: preview-vagabond-knockback02
+  - first:
+      213: 5946433973412258398
+    second: preview-vagabond-knockback03
+  - first:
+      213: 6378717055443786004
+    second: preview-vagabond-knockback04
+  - first:
+      213: 2330139545294923597
+    second: preview-vagabond-knockback05
+  - first:
+      213: 6839296534571755622
+    second: preview-vagabond-knockback06
+  - first:
+      213: 6014548618890007511
+    second: preview-vagabond-knockback07
+  - first:
+      213: -2817084719479065450
+    second: preview-vagabond-knockback08
+  - first:
+      213: -334172263193298264
+    second: preview-vagabond-knockback09
+  - first:
+      213: 5236236627145892189
+    second: preview-vagabond-knockback10
+  - first:
+      213: -7732771945185877910
+    second: preview-vagabond-knockback11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: preview-vagabond-knockback00
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 265
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992b5cd789619d020800000000000000
+      internalID: 2366947923360854681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-knockback01
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 265
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72cb3c5967ce9e20800000000000000
+      internalID: 3359341627397882491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-knockback02
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 265
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690ad25d1753c5a70800000000000000
+      internalID: 8816980933508702358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-knockback03
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 199
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e526d89713af58250800000000000000
+      internalID: 5946433973412258398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-knockback04
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 199
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419d374bd51c58850800000000000000
+      internalID: 6378717055443786004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-knockback05
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 199
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47e4622291565020800000000000000
+      internalID: 2330139545294923597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-knockback06
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 133
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668a5b846ff0aee50800000000000000
+      internalID: 6839296534571755622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-knockback07
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 133
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d351493a18f77350800000000000000
+      internalID: 6014548618890007511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-knockback08
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 133
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 694f4498f54b7e8d0800000000000000
+      internalID: -2817084719479065450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-knockback09
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 67
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa339ed818cc5bf0800000000000000
+      internalID: -334172263193298264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-knockback10
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 67
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51abe83879daa840800000000000000
+      internalID: 5236236627145892189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview-vagabond-knockback11
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 67
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60e616c2ecafa490800000000000000
+      internalID: -7732771945185877910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      preview-vagabond-knockback11: -7732771945185877910
+      preview-vagabond-knockback01: 3359341627397882491
+      preview-vagabond-knockback07: 6014548618890007511
+      preview-vagabond-knockback03: 5946433973412258398
+      preview-vagabond-knockback02: 8816980933508702358
+      preview-vagabond-knockback04: 6378717055443786004
+      preview-vagabond-knockback06: 6839296534571755622
+      preview-vagabond-knockback08: -2817084719479065450
+      preview-vagabond-knockback05: 2330139545294923597
+      preview-vagabond-knockback09: -334172263193298264
+      preview-vagabond-knockback10: 5236236627145892189
+      preview-vagabond-knockback00: 2366947923360854681
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
