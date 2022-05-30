@@ -14,7 +14,7 @@ public class Enemy : MonoBehaviour
     private SpriteRenderer _spriteRend;
 
     public int positionOfPatrol;
-    public Transform startPoint;
+    public Vector3 startPoint;
     private bool _movingRight;
 
     private Transform _player;
@@ -33,6 +33,7 @@ public class Enemy : MonoBehaviour
         _matBlink = Resources.Load("EnemyBlink", typeof(Material)) as Material;
         _matDefault = _spriteRend.material;
         _anim = GetComponent<Animator>();
+        startPoint = transform.position + new Vector3(1.5f, 0, 0);
     }
 
     public void TakeDamage(int damage)
@@ -48,7 +49,7 @@ public class Enemy : MonoBehaviour
             Invoke(nameof(DestroyEnemy), 0.2f);
         }
             
-        if (Vector2.Distance(transform.position, startPoint.position) < positionOfPatrol && !_angry)
+        if (Vector2.Distance(transform.position, startPoint) < positionOfPatrol && !_angry)
         {
             _chill = true;
         }
@@ -82,12 +83,12 @@ public class Enemy : MonoBehaviour
 
     private void Chill()
     {
-        if (transform.position.x > startPoint.position.x + positionOfPatrol)
+        if (transform.position.x > startPoint.x + positionOfPatrol)
         {
             _movingRight = false;
             Flip();
         }
-        else if (transform.position.x < startPoint.position.x - positionOfPatrol)
+        else if (transform.position.x < startPoint.x - positionOfPatrol)
         {
             _movingRight = true;
             Flip();
@@ -118,7 +119,7 @@ public class Enemy : MonoBehaviour
 
     private void GoBack()
     {
-        transform.position = Vector2.MoveTowards(transform.position, startPoint.position, speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, startPoint, speed * Time.deltaTime);
     }
 
     private void Flip()

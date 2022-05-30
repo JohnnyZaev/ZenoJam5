@@ -27,6 +27,8 @@ public class newController : MonoBehaviour
 	[SerializeField] private GameObject attackHitBox;
 	private float _takeDamageCd = 2f;
 	private float _currentTakeDamageCd;
+	[SerializeField]
+	private GameObject GameOverMenu;
 
 	public int health = 100;
 
@@ -38,6 +40,8 @@ public class newController : MonoBehaviour
         anim = GetComponent<Animator>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
         attackHitBox.SetActive(false);
+        Time.timeScale = 1;
+
     }
 	
     /// <summary>
@@ -80,6 +84,13 @@ public class newController : MonoBehaviour
 
 	private void Update()
 	{
+	
+	    if (health <= 0)
+	    {
+	        anim.Play("dealth");
+	        Time.timeScale = 0;
+	        GameOverMenu.SetActive(true);
+	    }
 		//если персонаж на земле и нажат пробел...
 		if (isGrounded && Input.GetKeyDown(KeyCode.Space)) 
 		{
@@ -95,17 +106,11 @@ public class newController : MonoBehaviour
 		{
 			isAttacking = true;
 			int choose = UnityEngine.Random.Range(1, 4);
-			// if (!isGrounded)
-			// {
-			// 	anim.Play("attack_fly" + choose);
-			// 	Debug.Log("fikus");
-			// }
-			// else
 			anim.Play("attack" + choose);
 			StartCoroutine(DoAttack());
 		}
 
-		_currentTakeDamageCd += Time.deltaTime;
+		// _currentTakeDamageCd += Time.deltaTime;
 	}
 
     /// <summary>
@@ -137,11 +142,11 @@ public class newController : MonoBehaviour
     {
 	    if (col.gameObject.layer == 8)
 	    {
-		    if (health > 0 && _currentTakeDamageCd >= _takeDamageCd)
-				health -= 20;
-		    else
+		    if (health > 0 && Time.time >= (_takeDamageCd + _currentTakeDamageCd))
 		    {
-			    health = 0;
+			    health -= 20;
+			    Debug.Log("-20");
+			    _currentTakeDamageCd = Time.time;
 		    }
 	    }
     }
