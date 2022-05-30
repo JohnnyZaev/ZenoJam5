@@ -138,9 +138,9 @@ public class newController : MonoBehaviour
 	    isAttacking = false;
     }
 
-    private void OnTriggerEnter2D(Collider2D col)
+    private void OnTriggerStay2D(Collider2D other)
     {
-	    if (col.gameObject.layer == 8)
+	    if (other.gameObject.layer == 8 && !attackHitBox.activeSelf)
 	    {
 		    if (health > 0 && Time.time >= (_takeDamageCd + _currentTakeDamageCd))
 		    {
